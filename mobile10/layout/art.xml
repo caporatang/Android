@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/text2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="i am artist@@@"></TextView>-->
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/movie2" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="아티스트 탭입니다."
+            android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btnChange2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="이미지 + 텍스트 변경"
+        android:textSize="20dp"/>
+
+</LinearLayout>
